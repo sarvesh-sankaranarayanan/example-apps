@@ -1,0 +1,19 @@
+{
+  id: SecureRandom.uuid,
+  sender: {
+    id: SecureRandom.uuid,
+    created_at: Time.now,
+    ip: '127.0.0.1',
+    location: { lat: 0, long: 0 }
+  },
+  receiver: {
+    id: SecureRandom.uuid,
+    created_at: Time.now,
+    ip: '127.0.0.1',
+    location: { lat: 0, long: 0 }
+  },
+  transaction: {
+    amount: 100,
+    balance: 100_000
+  }
+}
